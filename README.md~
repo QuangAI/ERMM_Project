@@ -12,7 +12,7 @@ ERMM_project/
 │   └── augmented/              # Dữ liệu tăng cường (nếu áp dụng synthetic data)
 ├── models/                     # Lưu trữ mô hình
 │   ├── pretrained/             # Mô hình pretrained (base SLMs như Qwen Coder)
-│   ├── checkpoints/             # Mô hình sau khi finetune
+│   ├── checkpoints/              # Mô hình sau khi finetune
 ├── src/                        # Mã nguồn chính
 │   ├── data_preprocessing.py   # Tiền xử lý dữ liệu
 │   ├── model_training.py       # Huấn luyện và tinh chỉnh mô hình
@@ -30,5 +30,3 @@ ERMM_project/
 │   └── distill.sh              # Script chạy chưng cất
 ├── requirements.txt            # Danh sách thư viện cần thiết
 └── README.md                   # Hướng dẫn sử dụng dự án
-
-```
